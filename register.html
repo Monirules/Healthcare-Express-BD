@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare Xpress</title>
+
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/css/style.css">
+
+</head>
+<body>
+
+    <div class="wrapper register-wrapper">
+        <section>
+            <center>
+                <header>
+                    User Register 
+                </header>
+            </center>
+            <!-- Register form starts -->
+            <form action="validation.php" class="form" method="post">
+                <div class="field input">
+                    <label for="name">Name</label>
+                    <input type="name" id="name" name="name" placeholder="Type Name here" required> 
+                </div>
+
+                <div class="field input">
+                    <label for="phone">Phone</label>
+                    <input type="phone" id="phone" name="phone" placeholder="Type Contact no here" required> 
+                </div>
+
+                <div class="field input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Type Email here" required> 
+                </div>
+
+                <div class="field input">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Input Password here" required>
+                </div>
+                
+                <div class="field button">
+                    <input type="submit" name="submit" value="Register">
+                </div>
+            </form>
+            <!-- Register form ends -->
+            <div class="login">
+                <a href="index.html" class="Link">Already have an account? Login Here.</a>
+            </div>
+        </section>
+    </div>
+
+    
+</body>
+</html>
